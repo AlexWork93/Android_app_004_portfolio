@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.oleksii.android_app_004_portfolio"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -36,6 +36,10 @@ android {
 }
 
 dependencies {
+
+    implementation(libs.recyclerview)
+    implementation(libs.cardview)
+
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
